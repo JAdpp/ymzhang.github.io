@@ -19,8 +19,8 @@ title: Home
       <a class="button button--secondary" href="{{ site.links.cv | relative_url }}">Public CV</a>
     </div>
   </div>
-  <figure class="hero__visual">
-    <img src="{{ '/assets/img/research-map.png' | relative_url }}" alt="Abstract research map connecting interaction, agents, culture, and wellbeing">
+  <figure class="hero__portrait">
+    <img src="{{ '/assets/img/yangming-zhang.jpg' | relative_url }}" alt="Portrait of Yangming Zhang">
   </figure>
 </section>
 

@@ -113,6 +113,10 @@ def bullet(text, styles):
     return Paragraph(f"- {text}", styles["Bullet"])
 
 
+def highlight_author(text):
+    return text.replace("Yangming Zhang", "<b>Yangming Zhang</b>")
+
+
 def build_pdf():
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(
@@ -225,7 +229,7 @@ def build_pdf():
 
     add_section(story, "Selected Publications", styles)
     for item in PUBLICATIONS:
-        story.append(bullet(item, styles))
+        story.append(bullet(highlight_author(item), styles))
 
     story.append(PageBreak())
     add_section(story, "Selected Projects", styles)

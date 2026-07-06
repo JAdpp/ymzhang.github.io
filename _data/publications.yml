@@ -5,6 +5,8 @@
   role: "First author"
   type: "Poster"
   featured: true
+  image: "/assets/img/covers/verse-listens-back.png"
+  image_alt: "Cover image for When Verse Listens Back"
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3772363.3798550"
@@ -18,6 +20,8 @@
   role: "Co-first author"
   type: "Demonstration"
   featured: true
+  image: "/assets/img/covers/poemithy.png"
+  image_alt: "Cover image for Poemithy"
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3714394.3754361"
@@ -31,6 +35,8 @@
   role: "First author"
   type: "Short paper"
   featured: true
+  image: "/assets/img/covers/poetic-comfort.png"
+  image_alt: "Cover image for the poetic comfort paper"
   links:
     - label: "ASIS&T"
       url: "https://www.asist.org/meetings-events/am/am25/am25-papers/"
@@ -42,6 +48,8 @@
   role: "Co-author"
   type: "Full paper"
   featured: true
+  image: "/assets/img/covers/bricksmart.png"
+  image_alt: "Cover image for BrickSmart"
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3706598.3714212"
@@ -55,6 +63,8 @@
   role: "Second author"
   type: "Journal article"
   featured: true
+  image: "/assets/img/covers/export-watercolours.png"
+  image_alt: "Cover image for the Chinese export watercolours article"
   links:
     - label: "DOI"
       url: "https://doi.org/10.1093/llc/fqag046"
@@ -68,6 +78,8 @@
   role: "Sole author"
   type: "Journal article"
   featured: false
+  image: "/assets/img/covers/sucho.png"
+  image_alt: "Cover image for the digital heritage preservation article"
   links:
     - label: "Journal"
       url: "https://dhr.ruc.edu.cn/EN/Y2023/V3/I3/49"

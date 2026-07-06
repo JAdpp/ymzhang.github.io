@@ -1,6 +1,9 @@
 <div class="project-list">
   {% for project in include.projects %}
     <article class="project-card">
+      {% if project.image %}
+        <img class="project-card__cover" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | default: project.title }}" loading="lazy">
+      {% endif %}
       <div class="project-card__eyebrow">{{ project.period }} / {{ project.role }}</div>
       <h3>{{ project.title }}</h3>
       <p class="project-card__area">{{ project.area }}</p>
