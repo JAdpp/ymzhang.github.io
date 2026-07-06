@@ -5,18 +5,21 @@ title: Home
 
 <section class="hero">
   <div class="hero__content">
-    <p class="eyebrow">{{ site.author.affiliation }}</p>
-    <h1>Yangming Zhang</h1>
+    <h1>Hi, I'm Yangming Zhang.</h1>
     <p class="lead">
-      I am a Ph.D. student at Wuhan University, working on Human-AI Interaction, multimodal LLM agents, cultural intelligence, and AI for Wellbeing.
+      I'm a Ph.D. student in the School of Information Management at Wuhan University, advised by Prof. Liang Zhao and Prof. Jie Xu. I work on Human-AI Interaction, culturally grounded multimodal LLM agents, and AI systems for wellbeing, education, and digital cultural heritage.
     </p>
     <p>
-      My research studies how AI systems can support culturally situated human needs in emotional support, education, and digital cultural heritage. I build interactive prototypes, run user studies, and evaluate AI systems through mixed methods.
+      My current research asks how AI systems can support culturally situated human needs: from classical Chinese poetry as emotional support, to multi-agent educational systems, to generative curation for cultural heritage. I build interactive prototypes and evaluate them through user studies and mixed methods.
     </p>
-    <div class="hero__actions" aria-label="Profile links">
-      <a class="button" href="{{ site.links.scholar }}">Google Scholar</a>
-      <a class="button button--secondary" href="{{ site.links.github }}">GitHub</a>
-      <a class="button button--secondary" href="{{ site.links.cv | relative_url }}">Public CV</a>
+    <p>
+      Previously, I received an M.Sc. in Digital Humanities from University College London and a B.Sc. from Wuhan University.
+    </p>
+    <div class="text-links hero__links" aria-label="Profile links">
+      <a href="{{ site.links.scholar }}">Google Scholar</a>
+      <a href="{{ site.links.github }}">GitHub</a>
+      <a href="{{ site.links.cv | relative_url }}">Public CV</a>
+      <span>Email: {{ site.author.email_obfuscated }}</span>
     </div>
   </div>
   <figure class="hero__portrait">

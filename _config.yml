@@ -5,10 +5,11 @@ baseurl: "/ymzhang.github.io"
 
 author:
   name: Yangming Zhang
-  role: Ph.D. Student
+  role: Wuhan University
   affiliation: School of Information Management, Wuhan University
   lab: Cultural Heritage Intelligent Computing Lab
   location: Wuhan, China
+  email_obfuscated: "cha_jadpp [at] foxmail [dot] com"
 
 links:
   scholar: "https://scholar.google.com/citations?user=UUmf2HEAAAAJ"

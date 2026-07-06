@@ -5,7 +5,7 @@
   featured: true
   image: "/assets/img/covers/poemithy.png"
   image_alt: "Cover image for the Poemithy project"
-  summary: "A multimodal LLM-based interaction system that explores classical Chinese poetry as a culturally grounded medium for emotional support. The project combines system prototyping, prompt/context orchestration, user studies, and mixed-methods evaluation."
+  summary: "A multimodal LLM-based system exploring classical Chinese poetry as a culturally grounded medium for emotional support, evaluated through prototypes and user studies."
 
 - title: "Altair / StandCraft"
   period: "2025-Present"
@@ -14,7 +14,7 @@
   featured: true
   image: "/assets/img/covers/altair-standcraft.png"
   image_alt: "Cover image for the Altair and StandCraft project direction"
-  summary: "A long-term exploration of AI-native narrative world platforms for creators working with original characters, worldbuilding, and long-form story settings. The public-facing direction focuses on persistent world memory, canon review, creator-controlled narrative evolution, and feedback loops from play to structured world assets."
+  summary: "A long-term exploration of AI-native narrative world platforms, focusing publicly on persistent world memory, canon review, and creator-controlled narrative evolution."
 
 - title: "Trip Canvas"
   period: "2026"
@@ -23,7 +23,7 @@
   featured: true
   image: "/assets/img/covers/trip-canvas.png"
   image_alt: "Cover image for the Trip Canvas open-source project"
-  summary: "An open-source Codex Skill for agent-led travel scrapbook, visual journal, and mini-comic creation. It structures messy travel materials into editable object manifests, stable object IDs, layout plans, prompt packs, and a lightweight local GUI for manual control."
+  summary: "An open-source Codex Skill for travel scrapbook, visual journal, and mini-comic creation, with object manifests, stable IDs, layout plans, prompt packs, and a local GUI."
   links:
     - label: "GitHub"
       url: "https://github.com/JAdpp/trip-canvas"
@@ -35,7 +35,7 @@
   featured: true
   image: "/assets/img/covers/mindtrace.png"
   image_alt: "Cover image for the MindTrace project"
-  summary: "A research project on visualizing creative problem-solving processes in a multi-agent educational system. Contributions include interaction concepts, system pipeline work, front-end/back-end prototyping, and evaluation planning."
+  summary: "A research project on visualizing creative problem-solving processes in a multi-agent educational system, spanning interaction concepts, prototyping, and evaluation planning."
 
 - title: "BrickSmart"
   period: "2024"
@@ -44,7 +44,7 @@
   featured: true
   image: "/assets/img/covers/bricksmart.png"
   image_alt: "Cover image for the BrickSmart project"
-  summary: "A generative AI-supported block-play learning system for children's spatial language development. Contributions included prompt strategies, multimodal API testing, Python/Django back-end development, deployment, and offline user-study support."
+  summary: "A generative AI-supported block-play system for children's spatial language development, including prompt strategy, back-end prototyping, deployment, and user-study support."
   links:
     - label: "Paper"
       url: "https://doi.org/10.1145/3706598.3714212"
@@ -56,7 +56,7 @@
   featured: true
   image: "/assets/img/covers/curation.png"
   image_alt: "Cover image for the generative AI curation project"
-  summary: "A generative curation prototype integrating language and image generation models to produce text-image virtual exhibition content, paired with an evaluation framework combining subjective user experience and objective alignment metrics."
+  summary: "A generative curation prototype for text-image virtual exhibition content, paired with an evaluation framework for user experience and alignment."
 
 - title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
   period: "2022-2023"
@@ -65,7 +65,7 @@
   featured: true
   image: "/assets/img/covers/export-watercolours.png"
   image_alt: "Cover image for the V&A Chinese export watercolours project"
-  summary: "A digital humanities project involving Chinese iconography data, open museum metadata, collection digitization, and computational analysis of Chinese export watercolours through clustering and visual analytics."
+  summary: "A digital humanities project using museum metadata, collection digitization, clustering, and visual analytics to study Chinese export watercolours."
   links:
     - label: "Article"
       url: "https://doi.org/10.1093/llc/fqag046"

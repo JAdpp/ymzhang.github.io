@@ -7,6 +7,7 @@
   featured: true
   image: "/assets/img/covers/verse-listens-back.png"
   image_alt: "Cover image for When Verse Listens Back"
+  summary: "We study how classical Chinese poetry can serve as a culturally grounded medium for multimodal AI-guided emotional support."
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3772363.3798550"
@@ -22,6 +23,7 @@
   featured: true
   image: "/assets/img/covers/poemithy.png"
   image_alt: "Cover image for Poemithy"
+  summary: "We designed and demonstrated a multimodal LLM system that connects poetic interpretation, dialogue, and visual expression in an emotional-support workflow."
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3714394.3754361"
@@ -37,6 +39,7 @@
   featured: true
   image: "/assets/img/covers/poetic-comfort.png"
   image_alt: "Cover image for the poetic comfort paper"
+  summary: "We propose a system framework for classical Chinese poetry therapy and discuss early interaction insights for everyday emotional-support scenarios."
   links:
     - label: "ASIS&T"
       url: "https://www.asist.org/meetings-events/am/am25/am25-papers/"
@@ -50,6 +53,7 @@
   featured: true
   image: "/assets/img/covers/bricksmart.png"
   image_alt: "Cover image for BrickSmart"
+  summary: "We designed a generative AI-supported family block-play system to scaffold children's spatial language learning."
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3706598.3714212"
@@ -65,6 +69,7 @@
   featured: true
   image: "/assets/img/covers/export-watercolours.png"
   image_alt: "Cover image for the Chinese export watercolours article"
+  summary: "We conducted metadata-driven digitization and computational analysis of Chinese export watercolours in the V&A collection."
   links:
     - label: "DOI"
       url: "https://doi.org/10.1093/llc/fqag046"
