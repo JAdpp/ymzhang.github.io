@@ -13,7 +13,7 @@ bundle exec jekyll serve
 
 ## Deployment
 
-Deploy from the `main` branch of `JAdpp.github.io` using GitHub Pages. The custom domain `ymzhang.space` is intentionally not configured in v1.
+Deploy from the `main` branch of `JAdpp/ymzhang.github.io` using GitHub Pages. The custom domain `ymzhang.space` is intentionally not configured in v1.
 
 ## Public CV
 
