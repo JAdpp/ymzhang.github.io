@@ -111,6 +111,39 @@ def motif_archive(draw, x0, y0, x1, y1, colors):
             draw.line((x + 12, y + 28, x + 50, y + 28), fill="#ffffff88", width=3)
 
 
+def motif_canon_map(draw, x0, y0, x1, y1, color):
+    cards = [
+        (x0 + 48, y0 + 58, "world"),
+        (x0 + 252, y0 + 48, "canon"),
+        (x0 + 120, y0 + 210, "memory"),
+        (x0 + 312, y0 + 226, "review"),
+    ]
+    centers = [(x + 59, y + 29) for x, y, _ in cards]
+    for a, b in [(0, 1), (1, 3), (3, 2), (2, 0), (0, 3)]:
+        draw.line((*centers[a], *centers[b]), fill=color + "55", width=6)
+    for x, y, label in cards:
+        draw.rounded_rectangle((x, y, x + 118, y + 58), radius=10, fill="#ffffffee", outline=color + "99", width=4)
+        draw.text((x + 16, y + 18), label, fill=color, font=font(16, bold=True))
+
+
+def motif_scrapbook(draw, x0, y0, x1, y1, colors):
+    pieces = [
+        (x0 + 45, y0 + 46, 132, 86, colors[0]),
+        (x0 + 218, y0 + 42, 122, 96, colors[1]),
+        (x0 + 92, y0 + 188, 104, 82, colors[2]),
+        (x0 + 282, y0 + 188, 132, 86, colors[3]),
+    ]
+    for i, (x, y, w, h, color) in enumerate(pieces):
+        draw.rounded_rectangle((x, y, x + w, y + h), radius=10, fill=color + "cc")
+        draw.rectangle((x + 16, y + 18, x + w - 16, y + 24), fill="#ffffff88")
+        draw.rectangle((x + 16, y + 38, x + w - 34, y + 44), fill="#ffffff66")
+        if i % 2 == 0:
+            draw.ellipse((x + w - 38, y + h - 38, x + w - 18, y + h - 18), fill="#ffffff99")
+    for x, y in [(x0 + 214, y0 + 170), (x0 + 372, y0 + 126), (x0 + 176, y0 + 102)]:
+        draw.line((x - 18, y, x + 18, y), fill="#22272b55", width=4)
+        draw.line((x, y - 18, x, y + 18), fill="#22272b55", width=4)
+
+
 def make_cover(filename, label, title, accent, motif):
     COVER_DIR.mkdir(parents=True, exist_ok=True)
     w, h = 960, 540
@@ -130,6 +163,10 @@ def make_cover(filename, label, title, accent, motif):
         motif_network(md, 425, 105, 880, 410, accent)
     elif motif == "archive":
         motif_archive(md, 430, 105, 875, 400, [PALETTE["warm"], PALETTE["teal"], PALETTE["plum"], PALETTE["leaf"]])
+    elif motif == "canon":
+        motif_canon_map(md, 430, 105, 875, 400, accent)
+    elif motif == "scrapbook":
+        motif_scrapbook(md, 430, 105, 875, 400, [PALETTE["warm"], PALETTE["teal"], PALETTE["plum"], PALETTE["leaf"]])
     else:
         motif_network(md, 425, 105, 880, 410, accent)
     motif_layer = motif_layer.filter(ImageFilter.GaussianBlur(0.1))
@@ -160,6 +197,8 @@ def main():
         ("bricksmart.png", "CHI", "BrickSmart", PALETTE["blue"], "blocks"),
         ("export-watercolours.png", "DSH", "Chinese Export Watercolours", PALETTE["leaf"], "archive"),
         ("sucho.png", "DHR", "Digital Heritage in Conflict Areas", PALETTE["deep"], "archive"),
+        ("altair-standcraft.png", "Project", "Altair / StandCraft", PALETTE["deep"], "canon"),
+        ("trip-canvas.png", "Project", "Trip Canvas", PALETTE["leaf"], "scrapbook"),
         ("mindtrace.png", "Project", "MindTrace", PALETTE["plum"], "network"),
         ("curation.png", "Project", "Generative AI Curation", PALETTE["warm"], "archive"),
     ]
