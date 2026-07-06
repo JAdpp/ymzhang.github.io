@@ -1,0 +1,73 @@
+- title: "When Verse Listens Back: Classical Chinese Poetry as a Culturally Grounded Medium for Multimodal AI-Guided Emotional Support"
+  authors: "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao"
+  venue: "CHI EA 2026: Extended Abstracts of the ACM CHI Conference on Human Factors in Computing Systems"
+  year: 2026
+  role: "First author"
+  type: "Poster"
+  featured: true
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3772363.3798550"
+    - label: "ACM DL"
+      url: "https://dl.acm.org/doi/10.1145/3772363.3798550"
+
+- title: "Poemithy: Leveraging Multimodal LLMs for Emotional Healing through Classical Chinese Poetry"
+  authors: "Yangming Zhang*, Bin Wu*, Zihan Zeng, Jie Xu, Yunpeng Song, Liang Zhao"
+  venue: "UbiComp/ISWC Companion 2025"
+  year: 2025
+  role: "Co-first author"
+  type: "Demonstration"
+  featured: true
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3714394.3754361"
+    - label: "ACM DL"
+      url: "https://dl.acm.org/doi/10.1145/3714394.3754361"
+
+- title: "\"It Helps Me Find Poetic Comfort in My Busy Life\": A Multimodal LLM-Based Classical Chinese Poetry Therapy System Framework"
+  authors: "Yangming Zhang, Liang Zhao, Jie Xu"
+  venue: "ASIS&T Annual Meeting 2025"
+  year: 2025
+  role: "First author"
+  type: "Short paper"
+  featured: true
+  links:
+    - label: "ASIS&T"
+      url: "https://www.asist.org/meetings-events/am/am25/am25-papers/"
+
+- title: "BrickSmart: Leveraging Generative AI to Support Children's Spatial Language Learning in Family Block Play"
+  authors: "Yujia Liu*, Siyu Zha*, Yuewen Zhang, Yanjin Wang, Yangming Zhang, Qi Xin, Lunyiu Nie, Chao Zhang, Yingqing Xu"
+  venue: "CHI 2025: ACM Conference on Human Factors in Computing Systems"
+  year: 2025
+  role: "Co-author"
+  type: "Full paper"
+  featured: true
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3706598.3714212"
+    - label: "ACM DL"
+      url: "https://dl.acm.org/doi/10.1145/3706598.3714212"
+
+- title: "A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection"
+  authors: "Jin Gao, Yangming Zhang, Jiawei Liu, Jose Pedro Sousa"
+  venue: "Digital Scholarship in the Humanities, 41(2), 692-714"
+  year: 2026
+  role: "Second author"
+  type: "Journal article"
+  featured: true
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1093/llc/fqag046"
+    - label: "Oxford Academic"
+      url: "https://academic.oup.com/dsh/article/41/2/692/8662485"
+
+- title: "Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online"
+  authors: "Yangming Zhang"
+  venue: "Digital Humanities Research, 3(03), 49-58"
+  year: 2023
+  role: "Sole author"
+  type: "Journal article"
+  featured: false
+  links:
+    - label: "Journal"
+      url: "https://dhr.ruc.edu.cn/EN/Y2023/V3/I3/49"

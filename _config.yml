@@ -1,0 +1,43 @@
+title: Yangming Zhang
+description: Academic homepage for Yangming Zhang, a Ph.D. student working on Human-AI Interaction, multimodal LLM agents, cultural intelligence, and AI for Wellbeing.
+url: "https://jadpp.github.io"
+baseurl: ""
+
+author:
+  name: Yangming Zhang
+  role: Ph.D. Student
+  affiliation: School of Information Management, Wuhan University
+  lab: Cultural Heritage Intelligent Computing Lab
+  location: Wuhan, China
+
+links:
+  scholar: "https://scholar.google.com/citations?user=UUmf2HEAAAAJ"
+  github: "https://github.com/JAdpp"
+  cv: "/files/Yangming_Zhang_Public_CV.pdf"
+
+nav:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: CV
+    url: /cv/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+  style: compressed
+
+plugins: []
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - tmp
+  - output

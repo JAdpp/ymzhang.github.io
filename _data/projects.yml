@@ -1,0 +1,40 @@
+- title: "Poemithy / Classical Chinese Poetry Therapy"
+  period: "2024-Present"
+  role: "Project lead"
+  area: "Human-AI interaction, multimodal LLM agents, AI for Wellbeing"
+  featured: true
+  summary: "A multimodal LLM-based interaction system that explores classical Chinese poetry as a culturally grounded medium for emotional support. The project combines system prototyping, prompt/context orchestration, user studies, and mixed-methods evaluation."
+
+- title: "MindTrace"
+  period: "2025"
+  role: "Research intern, Future Laboratory, Tsinghua University"
+  area: "Multi-agent education systems and thought visualization"
+  featured: true
+  summary: "A research project on visualizing creative problem-solving processes in a multi-agent educational system. Contributions include interaction concepts, system pipeline work, front-end/back-end prototyping, and evaluation planning."
+
+- title: "BrickSmart"
+  period: "2024"
+  role: "Research intern, Future Laboratory, Tsinghua University"
+  area: "Generative AI for parent-child learning"
+  featured: true
+  summary: "A generative AI-supported block-play learning system for children's spatial language development. Contributions included prompt strategies, multimodal API testing, Python/Django back-end development, deployment, and offline user-study support."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1145/3706598.3714212"
+
+- title: "Generative AI for Digital Content Curation in Cultural Heritage"
+  period: "2023"
+  role: "Master's dissertation, UCL"
+  area: "Digital humanities, generative AI, cultural heritage"
+  featured: true
+  summary: "A generative curation prototype integrating language and image generation models to produce text-image virtual exhibition content, paired with an evaluation framework combining subjective user experience and objective alignment metrics."
+
+- title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
+  period: "2022-2023"
+  role: "Research assistant / project researcher"
+  area: "Computational art history and museum data"
+  featured: true
+  summary: "A digital humanities project involving Chinese iconography data, open museum metadata, collection digitization, and computational analysis of Chinese export watercolours through clustering and visual analytics."
+  links:
+    - label: "Article"
+      url: "https://doi.org/10.1093/llc/fqag046"

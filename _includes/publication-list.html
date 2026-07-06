@@ -1,0 +1,20 @@
+<div class="publication-list">
+  {% for pub in include.publications %}
+    <article class="pub-item">
+      <div class="pub-item__year">{{ pub.year }}</div>
+      <div class="pub-item__body">
+        <h3>{{ pub.title }}</h3>
+        <p class="pub-item__authors">{{ pub.authors }}</p>
+        <p class="pub-item__venue">{{ pub.venue }}</p>
+        <p class="pub-item__meta">{{ pub.role }}{% if pub.type %} / {{ pub.type }}{% endif %}</p>
+        {% if pub.links %}
+          <div class="link-row" aria-label="Publication links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

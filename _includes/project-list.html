@@ -1,0 +1,17 @@
+<div class="project-list">
+  {% for project in include.projects %}
+    <article class="project-card">
+      <div class="project-card__eyebrow">{{ project.period }} / {{ project.role }}</div>
+      <h3>{{ project.title }}</h3>
+      <p class="project-card__area">{{ project.area }}</p>
+      <p>{{ project.summary }}</p>
+      {% if project.links %}
+        <div class="link-row" aria-label="Project links">
+          {% for link in project.links %}
+            <a href="{{ link.url }}">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
