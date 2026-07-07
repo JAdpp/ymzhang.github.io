@@ -19,7 +19,7 @@ title: Home
       <a href="{{ site.links.scholar }}">Google Scholar</a>
       <a href="{{ site.links.github }}">GitHub</a>
       <a href="{{ site.links.cv | relative_url }}">Public CV</a>
-      <span>Email: {{ site.author.email_obfuscated }}</span>
+      <a href="mailto:{{ site.author.email }}">Email</a>
     </div>
   </div>
   <figure class="hero__portrait">

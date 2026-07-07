@@ -498,12 +498,4 @@ h3 {
     padding-inline: 0.52rem;
   }
 
-  .hero__links span {
-    flex-basis: 100%;
-  }
-
-  .hero__links a:nth-of-type(3)::after {
-    content: "";
-    margin-left: 0;
-  }
 }
