@@ -20,7 +20,7 @@
   year: 2025
   role: "Co-first author"
   type: "Demonstration"
-  featured: true
+  featured: false
   image: "/assets/img/covers/poemithy.png"
   image_alt: "Cover image for Poemithy"
   summary: "We designed and demonstrated a multimodal LLM system that connects poetic interpretation, dialogue, and visual expression in an emotional-support workflow."
@@ -36,7 +36,7 @@
   year: 2025
   role: "First author"
   type: "Short paper"
-  featured: true
+  featured: false
   image: "/assets/img/covers/poetic-comfort.png"
   image_alt: "Cover image for the poetic comfort paper"
   summary: "We propose a system framework for classical Chinese poetry therapy and discuss early interaction insights for everyday emotional-support scenarios."
