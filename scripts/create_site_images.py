@@ -203,6 +203,7 @@ def main():
         ("altair-standcraft.png", "Project", "Altair / StandCraft", PALETTE["deep"], "canon"),
         ("trip-canvas.png", "Project", "Trip Canvas", PALETTE["leaf"], "scrapbook"),
         ("mindtrace.png", "Project", "MindTrace", PALETTE["plum"], "network"),
+        ("curation.png", "Project", "Generative AI Curation", PALETTE["warm"], "archive"),
     ]
     for args in covers:
         make_cover(*args)
