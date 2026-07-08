@@ -339,6 +339,10 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.pub-item--text {
+  grid-template-columns: 1fr;
+}
+
 .pub-item__cover {
   display: block;
   overflow: hidden;

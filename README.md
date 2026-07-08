@@ -2,6 +2,10 @@
 
 Jekyll academic homepage for GitHub Pages.
 
+Live site: https://jadpp.github.io/ymzhang.github.io/
+
+Repository: https://github.com/JAdpp/ymzhang.github.io
+
 ## Local build
 
 This machine may need Ruby first. When Ruby and Bundler are available:

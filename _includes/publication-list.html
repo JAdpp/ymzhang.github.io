@@ -1,6 +1,6 @@
 <div class="publication-list">
   {% for pub in include.publications %}
-    <article class="pub-item">
+    <article class="pub-item{% unless pub.image %} pub-item--text{% endunless %}">
       {% if pub.image %}
         {% assign primary_link = pub.links | first %}
         {% assign pub_alt = pub.image_alt | default: pub.title %}
