@@ -191,6 +191,9 @@ def make_cover(filename, label, title, accent, motif):
 def main():
     make_headshot()
     covers = [
+        ("artificial-wisdom.png", "IJHCI", "Artificial Wisdom", PALETTE["deep"], "canon"),
+        ("pocketmuseum.png", "UbiComp", "PocketMuseum", PALETTE["leaf"], "archive"),
+        ("co-teaching-ai.png", "BJET", "Co-teaching with AI", PALETTE["blue"], "network"),
         ("verse-listens-back.png", "CHI EA", "When Verse Listens Back", PALETTE["teal"], "poetry"),
         ("poemithy.png", "UbiComp", "Poemithy", PALETTE["warm"], "poetry"),
         ("poetic-comfort.png", "ASIS&T", "Poetic Comfort in Busy Life", PALETTE["plum"], "poetry"),
@@ -200,7 +203,6 @@ def main():
         ("altair-standcraft.png", "Project", "Altair / StandCraft", PALETTE["deep"], "canon"),
         ("trip-canvas.png", "Project", "Trip Canvas", PALETTE["leaf"], "scrapbook"),
         ("mindtrace.png", "Project", "MindTrace", PALETTE["plum"], "network"),
-        ("curation.png", "Project", "Generative AI Curation", PALETTE["warm"], "archive"),
     ]
     for args in covers:
         make_cover(*args)

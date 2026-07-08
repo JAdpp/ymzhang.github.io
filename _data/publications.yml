@@ -1,20 +1,35 @@
+- title: "Artificial Wisdom: Designing and Evaluating Culturally Sensitive Agents for Confucian Philosophical Counseling"
+  authors: "Liang Zhao*, Yangming Zhang*, Beiqi Ning, Lingyan Zhou, Bokai Chen, Weiwei Zheng, Xiaojun Ding"
+  venue: "Under review, International Journal of Human-Computer Interaction"
+  year: 2027
+  role: "Co-first author"
+  type: "Manuscript under review"
+  featured: true
+  image: "/assets/img/covers/artificial-wisdom.png"
+  image_alt: "Cover image for the Artificial Wisdom manuscript"
+  summary: "Under review manuscript on culturally sensitive agents for Confucian philosophical counseling."
+
+- title: "PocketMuseum: Supporting Unified Inspect-Inquire-Interpret Interactions for Immersive Cultural Heritage Exploration"
+  authors: "Liang Zhao, Zhaoduo Li, Yangming Zhang, Qi Li*, Yue Gu*"
+  venue: "Under review, UbiComp 2026"
+  year: 2026
+  role: "Co-author"
+  type: "Manuscript under review"
+  featured: false
+  image: "/assets/img/covers/pocketmuseum.png"
+  image_alt: "Cover image for the PocketMuseum manuscript"
+  summary: "Under review manuscript on unified inspect-inquire-interpret interactions for immersive cultural heritage exploration."
+
 - title: "Co-teaching with AI: Designing and Evaluating a Learning Analytics Dashboard to Visualize Student-AI Interaction Traces"
   authors: "Siyu Zha, Yuqi Li, Yangming Zhang, Yujia Liu, Chengbo Zheng, Jiangtao Gong, Yingqing Xu"
   venue: "Under review, British Journal of Educational Technology"
   year: 2026
   role: "Co-author"
   type: "Manuscript under review"
-  featured: false
+  featured: true
+  image: "/assets/img/covers/co-teaching-ai.png"
+  image_alt: "Cover image for the Co-teaching with AI manuscript"
   summary: "Under review manuscript on a learning analytics dashboard for visualizing student-AI interaction traces."
-
-- title: "Artificial Wisdom: Designing and Evaluating Culturally Sensitive Agents for Confucian Philosophical Counseling"
-  authors: "Liang Zhao*, Yangming Zhang*, Beiqi Ning, Lingyan Zhou, Bokai Chen, Weiwei Zheng, Xiaojun Ding"
-  venue: "Under review, International Journal of Human-Computer Interaction"
-  year: 2026
-  role: "Co-first author"
-  type: "Manuscript under review"
-  featured: false
-  summary: "Under review manuscript on culturally sensitive agents for Confucian philosophical counseling."
 
 - title: "When Verse Listens Back: Classical Chinese Poetry as a Culturally Grounded Medium for Multimodal AI-Guided Emotional Support"
   authors: "Yangming Zhang, Zhiqian Li, Bin Wu, Qi Li, Jie Xu, Yunpeng Song, Liang Zhao"
@@ -31,6 +46,22 @@
       url: "https://doi.org/10.1145/3772363.3798550"
     - label: "ACM DL"
       url: "https://dl.acm.org/doi/10.1145/3772363.3798550"
+
+- title: "A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection"
+  authors: "Jin Gao, Yangming Zhang, Jiawei Liu, Jose Pedro Sousa"
+  venue: "Digital Scholarship in the Humanities, 41(2), 692-714"
+  year: 2026
+  role: "Second author"
+  type: "Journal article"
+  featured: true
+  image: "/assets/img/covers/export-watercolours.png"
+  image_alt: "Cover image for the Chinese export watercolours article"
+  summary: "We conducted metadata-driven digitization and computational analysis of Chinese export watercolours in the V&A collection."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1093/llc/fqag046"
+    - label: "Oxford Academic"
+      url: "https://academic.oup.com/dsh/article/41/2/692/8662485"
 
 - title: "Poemithy: Leveraging Multimodal LLMs for Emotional Healing through Classical Chinese Poetry"
   authors: "Yangming Zhang*, Bin Wu*, Zihan Zeng, Jie Xu, Yunpeng Song, Liang Zhao"
@@ -77,22 +108,6 @@
       url: "https://doi.org/10.1145/3706598.3714212"
     - label: "ACM DL"
       url: "https://dl.acm.org/doi/10.1145/3706598.3714212"
-
-- title: "A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection"
-  authors: "Jin Gao, Yangming Zhang, Jiawei Liu, Jose Pedro Sousa"
-  venue: "Digital Scholarship in the Humanities, 41(2), 692-714"
-  year: 2026
-  role: "Second author"
-  type: "Journal article"
-  featured: true
-  image: "/assets/img/covers/export-watercolours.png"
-  image_alt: "Cover image for the Chinese export watercolours article"
-  summary: "We conducted metadata-driven digitization and computational analysis of Chinese export watercolours in the V&A collection."
-  links:
-    - label: "DOI"
-      url: "https://doi.org/10.1093/llc/fqag046"
-    - label: "Oxford Academic"
-      url: "https://academic.oup.com/dsh/article/41/2/692/8662485"
 
 - title: "Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online"
   authors: "Yangming Zhang"

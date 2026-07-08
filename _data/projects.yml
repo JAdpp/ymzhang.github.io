@@ -49,15 +49,6 @@
     - label: "Paper"
       url: "https://doi.org/10.1145/3706598.3714212"
 
-- title: "Generative AI for Digital Content Curation in Cultural Heritage"
-  period: "2023"
-  role: "Master's dissertation, UCL"
-  area: "Digital humanities, generative AI, cultural heritage"
-  featured: true
-  image: "/assets/img/covers/curation.png"
-  image_alt: "Cover image for the generative AI curation project"
-  summary: "A generative curation prototype for text-image virtual exhibition content, paired with an evaluation framework for user experience and alignment."
-
 - title: "V&A Chinese Export Watercolours Digitization and Computational Analysis"
   period: "2022-2023"
   role: "Research assistant / project researcher"
