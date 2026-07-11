@@ -200,10 +200,10 @@ def main():
         ("bricksmart.png", "CHI", "BrickSmart", PALETTE["blue"], "blocks"),
         ("export-watercolours.png", "DSH", "Chinese Export Watercolours", PALETTE["leaf"], "archive"),
         ("sucho.png", "DHR", "Digital Heritage in Conflict Areas", PALETTE["deep"], "archive"),
-        ("altair-standcraft.png", "Project", "Altair / StandCraft", PALETTE["deep"], "canon"),
+        ("altair.png", "Project", "Altair", PALETTE["deep"], "canon"),
         ("trip-canvas.png", "Project", "Trip Canvas", PALETTE["leaf"], "scrapbook"),
         ("mindtrace.png", "Project", "MindTrace", PALETTE["plum"], "network"),
-        ("curation.png", "Project", "Generative AI Curation", PALETTE["warm"], "archive"),
+        ("curatorgpt.png", "Project", "CuratorGPT", PALETTE["warm"], "archive"),
     ]
     for args in covers:
         make_cover(*args)

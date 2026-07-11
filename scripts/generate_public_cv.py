@@ -55,7 +55,7 @@ PUBLICATIONS = [
     "Yangming Zhang, Liang Zhao, Jie Xu. \"It Helps Me Find Poetic Comfort in My Busy Life\": A Multimodal LLM-Based Classical Chinese Poetry Therapy System Framework. ASIS&T Annual Meeting 2025. First author.",
     "Yujia Liu*, Siyu Zha*, Yuewen Zhang, Yanjin Wang, Yangming Zhang, Qi Xin, Lunyiu Nie, Chao Zhang, Yingqing Xu. BrickSmart: Leveraging Generative AI to Support Children's Spatial Language Learning in Family Block Play. CHI 2025. Co-author.",
     "Jin Gao, Yangming Zhang, Jiawei Liu, Jose Pedro Sousa. A digital humanities approach to Chinese export watercolours: a case study on the Victoria and Albert Museum Collection. Digital Scholarship in the Humanities, 41(2), 692-714, 2026. Second author.",
-    "Yangming Zhang. Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online. Digital Humanities Research, 3(03), 49-58, 2023. Sole author.",
+    "Yangming Zhang. Digital Cultural Heritage Preservation Practices in Conflict Areas: The Case of Saving Ukrainian Cultural Heritage Online. Digital Humanities Research, 3(03), 49-58, 2023. In Chinese. Sole author.",
 ]
 
 
@@ -76,7 +76,7 @@ PROJECTS = [
         "Worked on prompt strategies, multimodal model/API testing, Python/Django back-end development, deployment, and offline user-study support for a parent-child spatial language learning system.",
     ),
     (
-        "Generative AI for Digital Content Curation in Cultural Heritage",
+        "CuratorGPT",
         "2023",
         "Developed a generative curation prototype integrating language and image generation models, paired with a mixed-methods evaluation framework for virtual exhibition content.",
     ),
