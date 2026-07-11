@@ -4,8 +4,8 @@ title: Home
 ---
 
 <section class="hero">
+  <h1>Hi, I'm Yangming Zhang.</h1>
   <div class="hero__content">
-    <h1>Hi, I'm Yangming Zhang.</h1>
     <p class="lead">
       I'm a Ph.D. student in the School of Information Management at Wuhan University, advised by Prof. Liang Zhao and Prof. Jie Xu, and a student researcher at the <a href="https://iclch.whu.edu.cn/">Intelligent Computing Laboratory for Cultural Heritage (ICLCH)</a>. I work on Human-AI Interaction, culturally grounded multimodal LLM agents, and AI systems for wellbeing, education, and digital cultural heritage.
     </p>
@@ -13,18 +13,20 @@ title: Home
       My current research asks how AI systems can support culturally situated human needs: from classical Chinese poetry as emotional support, to multi-agent educational systems, to generative curation for cultural heritage. I build interactive prototypes and evaluate them through user studies and mixed methods.
     </p>
     <p>
-      Previously, I received an M.Sc. in Digital Humanities from University College London and a B.Sc. from Wuhan University.
+      Previously, I received an M.Sc. in Digital Humanities from University College London (UCL) and a B.Sc. from Wuhan University.
     </p>
+  </div>
+  <aside class="hero__aside">
+    <figure class="hero__portrait">
+      <img src="{{ '/assets/img/yangming-zhang.jpg' | relative_url }}" alt="Portrait of Yangming Zhang">
+    </figure>
     <div class="text-links hero__links" aria-label="Profile links">
       <a href="{{ site.links.scholar }}">Google Scholar</a>
       <a href="{{ site.links.github }}">GitHub</a>
       <a href="{{ site.links.cv | relative_url }}">Public CV</a>
       <a href="mailto:{{ site.author.email }}">Email</a>
     </div>
-  </div>
-  <figure class="hero__portrait">
-    <img src="{{ '/assets/img/yangming-zhang.jpg' | relative_url }}" alt="Portrait of Yangming Zhang">
-  </figure>
+  </aside>
 </section>
 
 <section class="section-grid">
