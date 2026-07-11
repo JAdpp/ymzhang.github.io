@@ -19,6 +19,6 @@ bundle exec jekyll serve
 
 Deploy from the `main` branch of `JAdpp/ymzhang.github.io` using GitHub Pages. The custom domain `ymzhang.space` is intentionally not configured in v1.
 
-## Public CV
+## CV
 
-The public CV is generated from `scripts/generate_public_cv.py` and excludes phone number, direct email, and application-specific wording.
+The CV is generated from `scripts/generate_public_cv.py` and excludes phone number, direct email, and application-specific wording.

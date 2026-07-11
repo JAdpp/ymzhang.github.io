@@ -126,7 +126,7 @@ def build_pdf():
         leftMargin=15 * mm,
         topMargin=14 * mm,
         bottomMargin=14 * mm,
-        title="Yangming Zhang Public CV",
+        title="Yangming Zhang CV",
         author="Yangming Zhang",
     )
 

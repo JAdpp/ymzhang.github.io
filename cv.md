@@ -6,10 +6,10 @@ permalink: /cv/
 
 # CV
 
-A public CV is available below. This web version intentionally excludes phone number and direct email information.
+A downloadable CV is available below. The PDF excludes phone number and email information.
 
 <p>
-  <a class="button" href="{{ site.links.cv | relative_url }}">Download public CV</a>
+  <a class="button" href="{{ site.links.cv | relative_url }}">Download CV</a>
 </p>
 
 ## Profile

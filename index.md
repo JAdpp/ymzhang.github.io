@@ -23,8 +23,8 @@ title: Home
     <div class="text-links hero__links" aria-label="Profile links">
       <a href="{{ site.links.scholar }}">Google Scholar</a>
       <a href="{{ site.links.github }}">GitHub</a>
-      <a href="{{ site.links.cv | relative_url }}">Public CV</a>
-      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.links.cv | relative_url }}">CV</a>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     </div>
   </aside>
 </section>
