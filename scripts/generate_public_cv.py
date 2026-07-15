@@ -42,7 +42,7 @@ EDUCATION = [
     ),
     (
         "Wuhan University",
-        "B.Sc. in Library Science, School of Information Management",
+        "B.Sc., School of Information Management",
         "2015-2019",
         "GPA 85/100; nominated for Excellent Undergraduate Thesis; Excellent Student Researcher.",
     ),

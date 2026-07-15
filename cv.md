@@ -20,7 +20,7 @@ Ph.D. student working on Human-AI Interaction, multimodal LLM agents, cultural i
 
 - Ph.D. Student, School of Information Management, Wuhan University, 2024-Present.
 - M.Sc. in Digital Humanities, University College London, 2022-2023.
-- B.Sc. in Library Science, Wuhan University, 2015-2019.
+- B.Sc., School of Information Management, Wuhan University, 2015-2019.
 
 ## Links
 
